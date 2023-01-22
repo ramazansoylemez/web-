@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #fbfbfb;
+    color: white;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 20px 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reverseBtn {
+    background-color: #333;
+    color: white;
+
+}
+
+.button2 {
+    font-size: 11px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px 35px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid #979797;
+    border-radius: 50px;
+    margin-left: 200px;
+}
+
+.minHeader {
+    padding: 5px 0px 5px 10px;
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    background-color: rgb(25, 25, 25);
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    color: gainsboro;
+    padding: 20px;
+    text-align: center;
+    transition: ease-out 0.3s;
+
+    color: white;
+}
+
+nav ul li a:hover {
+    padding-left: 30px;
+    color: red;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.max-width {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+#mainContent {
+    flex: 8;
+    padding: 10px;
+}
+
+#sideContent {
+    flex: 4;
+    padding: 10px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.card h5 {
+    color: #aaa;
+    font-style: italic;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+
+    padding: 10px;
+
+}
+
+.flex-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(33, 33, 33);
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+
+
+footer {
+    padding: 20px 0;
+    background: rgb(28, 28, 28);
+}
+
+footer section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footerList li {
+    padding: 0 0 20px;
+}
+
+.footerList li a {
+    color: #333;
+    transition: ease-out 0.3s;
+}
+
+.footerList li a:hover {
+    padding-left: 10px;
+}
+
+.footerP {
+    width: 50%;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+
+    .flex-container,
+    nav ul {
+        flex-direction: column;
+    }
+
+    .maxHeader {
+        display: none;
+    }
+
+    .minHeader {
+        display: block;
+    }
+}
+
+.card2 {
+    box-shadow: 0px 0px 15px #dfd9ff;
+    -webkit-box-shadow: 0px 0px 15px #dfd9ff;
+    -moz-box-shadow: 0px 0px 15px #dfd9ff;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.caption-block {
+    width: 9cm;
+    padding-left: 50px;
+}
+
+.flex-container2 {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-container2>div {
+    color: white;
+   
+    margin: 10px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 12px;
+
+    color: black;
+    text-align: none;
+    text-align: center;
+    box-shadow: #333;
+}
+
+.imgg {
+    max-height: 470px;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.logo {
+    max-width: 120%;
+    padding-right: 500px;
+    padding-top: 0.5cm;
+}
+
+nav h5 {
+    color: #333;
+    padding-left: 500px;
+}
+
+div h2 {
+    padding-left: 140px;
+}
+
+div button {
+    padding-left: 5px;
+}
+
+nav h1 {
+    color: rgb(112, 112, 112);
+    padding-left: 520px;
+}
+
+nav h4 {
+    color: rgb(181, 181, 181);
+    padding-left: 620px;
+}
+
+nav p {
+    color: rgb(181, 181, 181);
+    padding-left: 320px;
+    padding-right: 280px;
+
+}
+
+.fullscreen {
+    font-size: 15px;
+    color: #1B1B1B;
+    margin-top: 20px;
+}
+
+.fullscreen2 {
+    font-size: 13px;
+    color: #9D9D9D;
+    line-height: 22px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+div img {
+    padding-left: 50px;
+}
+
+.class .footerList {
+    padding-right: 50px;
+
+}
+
+.madelove{
+    float: left;
+    display: block;
+    text-align: left;
+
+}
+
+.elite{
+    display: block;
+    float: right;
+    padding-left: 75%;
+    text-align: right;
+}
+
+.foto1{
+    width: 230px;
+    
+}
+
+.foto2{
+    width: 230px
+    
+  
+}
+.foto3{
+    width: 230px
+    
+}
+
+
+
+
+.kırmızı {
+    color: red;
+}
+
